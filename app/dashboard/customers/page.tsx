@@ -4,7 +4,6 @@ export default function Page() {
   return (
     <>
       <div className="flex flex-row text-center">
-        
         {/* Project Completion */}
         <div className="border-2 bg-white rounded flex flex-col justify-center  flex flex-col items-center">
           <h1 className="text-6xl uppercase text-[#ff671d] font-bold">
@@ -229,6 +228,17 @@ export default function Page() {
             </tr>
           </tbody>
         </table>
+      </div>
+
+      {/* Test */}
+      <div className="w-full bg-white rounded-full dark:bg-gray-700">
+        <div
+          className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+          style={{ width: '45%' }}
+        >
+          {' '}
+          45%
+        </div>
       </div>
     </>
   );
