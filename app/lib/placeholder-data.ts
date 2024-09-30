@@ -14,37 +14,37 @@ const customers = [
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
     name: 'Jillian Rooker',
     email: 'jr@archsolar',
-    image_url: '/customers/evil-rabbit.png',
+    image_url: '/customers/jillian-rooker.png',
   },
   {
     id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
     name: 'Ryan Hakala',
     email: 'rh@archsolar',
-    image_url: '/customers/delba-de-oliveira.png',
+    image_url: '/customers/ryan-hakala.png',
   },
   {
     id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
     name: 'Andrew Holmstrom',
     email: 'ah@archsolar',
-    image_url: '/customers/lee-robinson.png',
+    image_url: '/customers/andrew-holmstrom.png',
   },
   {
     id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
     name: 'JD Smith',
     email: 'jd@archsolar',
-    image_url: '/customers/michael-novotny.png',
+    image_url: '/customers/jd-smith.png',
   },
   {
     id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
     name: 'Bri Dobiesz',
     email: 'bd@archsolar',
-    image_url: '/customers/amy-burns.png',
+    image_url: '/customers/bri-dobiesz.png',
   },
   {
     id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'Josh Hooper',
     email: 'jh@archsolar',
-    image_url: '/customers/balazs-orban.png',
+    image_url: '/customers/josh-hooper.png',
   },
 ];
 
