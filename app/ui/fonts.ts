@@ -1,6 +1,6 @@
 import { Jost } from 'next/font/google';
 import { League_Spartan } from 'next/font/google';
-import { Inter } from 'next/font/google';
+// import { Inter } from 'next/font/google';
 // import { Lusitana } from 'next/font/google';
 
 //Replacement for Futura (premium)

@@ -1,7 +1,7 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import { league_Spartan, jost } from '@/app/ui/fonts';
+import { jost } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {

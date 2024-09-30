@@ -3,13 +3,14 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <>
-      <div className="flex flex-row text-center">
+      <div className="flex flex-row justify-evenly text-center">
         {/* Project Completion */}
-        <div className="border-2 bg-white rounded flex flex-col justify-center  flex flex-col items-center">
-          <h1 className="text-6xl uppercase text-[#ff671d] font-bold">
+        <div className="border-1 bg-white rounded flex flex-col justify-center flex flex-col items-center">
+          <h1 className="text-6xl uppercase text-[#ff671d] font-bold mb-5">
             Project Completion
           </h1>
           <Image
+            className="rounded-full"
             src="/solar/test-solar.png"
             width={500}
             height={500}
@@ -18,8 +19,8 @@ export default function Page() {
         </div>
 
         {/* Project Experts */}
-        <div className="border-2 bg-white rounded flex flex-col justify-center content-center">
-          <h1 className="text-6xl uppercase text-[#ff671d] font-bold">
+        <div className="border-1 bg-white rounded flex flex-col justify-center content-center ">
+          <h1 className="text-6xl uppercase text-[#ff671d] font-bold mb-5">
             Your Project Experts
           </h1>
           <table className="table-auto">
@@ -31,7 +32,7 @@ export default function Page() {
                 <th className="px-4 py-2">Email</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="font-bold">
               <tr className="text-center">
                 <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
                   Admin
@@ -94,7 +95,7 @@ export default function Page() {
       </div>
 
       {/* Progress Table */}
-      <div className="flex flex-col w-full rounded">
+      <div className="flex flex-col w-full rounded p-10 my-5">
         <table className="table-fixed ">
           <thead className="bg-gray-50 ">
             <tr className="text-center bg-cyan-950 border-1 text-white ">
