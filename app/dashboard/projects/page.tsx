@@ -96,7 +96,7 @@ export default function Page() {
 
       {/* Progress Table */}
       <div className="flex flex-col w-full rounded p-10 my-5">
-        <table className="table-fixed ">
+        <table className="table-fixed">
           <thead className="bg-gray-50 ">
             <tr className="text-center bg-cyan-950 border-1 text-white ">
               <th className="px-4 py-2">Admin</th>
@@ -111,7 +111,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -121,7 +121,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -131,7 +131,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -141,7 +141,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -153,7 +153,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -163,7 +163,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -173,7 +173,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -183,7 +183,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -195,7 +195,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -205,7 +205,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -215,7 +215,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -225,7 +225,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -237,7 +237,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -247,7 +247,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -257,7 +257,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -267,7 +267,7 @@ export default function Page() {
               <td>
                 <div className="w-full bg-white rounded-full dark:bg-gray-700">
                   <div
-                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
