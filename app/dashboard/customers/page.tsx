@@ -18,7 +18,7 @@ export default function Page() {
         </div>
 
         {/* Project Experts */}
-        <div className="border-2 bg-white rounded flex flex-col justify-center">
+        <div className="border-2 bg-white rounded flex flex-col justify-center content-center">
           <h1 className="text-6xl uppercase text-[#ff671d] font-bold">
             Your Project Experts
           </h1>
@@ -94,10 +94,10 @@ export default function Page() {
       </div>
 
       {/* Progress Table */}
-      <div className="flex flex-col w-full">
-        <table className="table-fixed">
-          <thead className="bg-gray-50">
-            <tr className="text-center bg-cyan-950 border-1 text-white">
+      <div className="flex flex-col w-full rounded">
+        <table className="table-fixed ">
+          <thead className="bg-gray-50 ">
+            <tr className="text-center bg-cyan-950 border-1 text-white ">
               <th className="px-4 py-2">Admin</th>
               <th className="px-4 py-2">Engineering</th>
               <th className="px-4 py-2">Field</th>
@@ -105,123 +105,171 @@ export default function Page() {
             </tr>
           </thead>
 
-          <tbody className="bg-[#1f3354]">
+          <tbody className="bg-[#1f3354] ">
             <tr className="text-center">
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-full bg-[#ff671D] text-white">
-                    100%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '25%' }}
+                  >
+                    {'25%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/4 bg-[#ff671D] text-white">
-                    25%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '25%' }}
+                  >
+                    {'25%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '25%' }}
+                  >
+                    {'25%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-3/4 bg-[#ff671D] text-white">
-                    75%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '25%' }}
+                  >
+                    {'25%'}
                   </div>
                 </div>
               </td>
             </tr>
             <tr className="text-center">
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '50%' }}
+                  >
+                    {'50%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '50%' }}
+                  >
+                    {'50%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-full bg-[#ff671D] text-white">
-                    100%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '50%' }}
+                  >
+                    {'50%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
-                  </div>
-                </div>
-              </td>
-            </tr>
-            <tr className="text-center">
-              <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/4 bg-[#ff671D] text-white">
-                    25%
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-full bg-[#ff671D] text-white">
-                    100%
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-3/4 bg-[#ff671D] text-white">
-                    75%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '50%' }}
+                  >
+                    {'50%'}
                   </div>
                 </div>
               </td>
             </tr>
             <tr className="text-center">
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '75%' }}
+                  >
+                    {'75%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '75%' }}
+                  >
+                    {'75%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '75%' }}
+                  >
+                    {'75%'}
                   </div>
                 </div>
               </td>
               <td>
-                <div className="w-full h-6 bg-white rounded-full">
-                  <div className="h-6 bg-blue-600 rounded-full w-1/2 bg-[#ff671D] text-white">
-                    50%
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '75%' }}
+                  >
+                    {'75%'}
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr className="text-center">
+              <td>
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '100%' }}
+                  >
+                    {'100%'}
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '100%' }}
+                  >
+                    {'100%'}
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '100%' }}
+                  >
+                    {'100%'}
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                  <div
+                    className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
+                    style={{ width: '100%' }}
+                  >
+                    {'100%'}
                   </div>
                 </div>
               </td>
@@ -231,15 +279,6 @@ export default function Page() {
       </div>
 
       {/* Test */}
-      <div className="w-full bg-white rounded-full dark:bg-gray-700">
-        <div
-          className="bg-blue-600 text-white text-center p-0.5 leading-none rounded-full"
-          style={{ width: '45%' }}
-        >
-          {' '}
-          45%
-        </div>
-      </div>
     </>
   );
 }
