@@ -26,66 +26,66 @@ export default function Page() {
           <table className="table-auto">
             <thead className="bg-gray-50">
               <tr className="text-center bg-cyan-950 border-1 text-white">
-                <th className="px-4 py-2">Department</th>
-                <th className="px-4 py-2">Contact</th>
-                <th className="px-4 py-2">Phone</th>
-                <th className="px-4 py-2">Email</th>
+                <th className="px-4 py-2 ">Department</th>
+                <th className="px-4 py-2 ">Contact</th>
+                <th className="px-4 py-2 ">Phone</th>
+                <th className="px-4 py-2 ">Email</th>
               </tr>
             </thead>
             <tbody className="font-bold">
               <tr className="text-center">
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Admin
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Jillian Rooker
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   555-555-5555
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   jr@archsolar
                 </td>
               </tr>
               <tr className="text-center">
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Field
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Ryan Hakala
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   555-555-5555
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   rh@archsolar
                 </td>
               </tr>
               <tr className="text-center">
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Safety
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Josh Hooper
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   555-555-5555
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   jh@archsolar
                 </td>
               </tr>
               <tr className="text-center">
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   Marketing
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#1f3354]">
+                <td className="border border-gray-300 px-4 py-2  text-[#1f3354]">
                   JD Smith
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   555-555-5555
                 </td>
-                <td className="border border-gray-300 px-4 py-2 text-[#ff671d]">
+                <td className="border border-gray-300 px-4 py-2  text-[#ff671d]">
                   jd@archsolar
                 </td>
               </tr>
@@ -95,23 +95,23 @@ export default function Page() {
       </div>
 
       {/* Progress Table */}
-      <div className="flex flex-col w-full rounded p-10 my-5">
+      <div className="flex flex-col rounded-full py-10 my-5 px-5">
         <table className="table-fixed">
           <thead className="bg-gray-50 ">
-            <tr className="text-center bg-cyan-950 border-1 text-white ">
-              <th className="px-4 py-2">Admin</th>
-              <th className="px-4 py-2">Engineering</th>
-              <th className="px-4 py-2">Field</th>
-              <th className="px-4 py-2">Marketing</th>
+            <tr className="text-center bg-cyan-950 border-1 text-white text-xl">
+              <th className="px-4 py-2 w-1/4">Admin</th>
+              <th className="px-4 py-2 w-1/4">Engineering</th>
+              <th className="px-4 py-2 w-1/4">Field</th>
+              <th className="px-4 py-2 w-1/4">Marketing</th>
             </tr>
           </thead>
 
-          <tbody className="bg-[#1f3354] ">
+          <tbody className="bg-[#1f3354]">
             <tr className="text-center">
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -119,9 +119,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -129,9 +129,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -139,9 +139,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '25%' }}
                   >
                     {'25%'}
@@ -151,9 +151,9 @@ export default function Page() {
             </tr>
             <tr className="text-center">
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -161,9 +161,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -171,9 +171,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -181,9 +181,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '50%' }}
                   >
                     {'50%'}
@@ -193,9 +193,9 @@ export default function Page() {
             </tr>
             <tr className="text-center">
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -203,9 +203,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -213,9 +213,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -223,9 +223,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '75%' }}
                   >
                     {'75%'}
@@ -235,9 +235,9 @@ export default function Page() {
             </tr>
             <tr className="text-center">
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -245,9 +245,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -255,9 +255,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -265,9 +265,9 @@ export default function Page() {
                 </div>
               </td>
               <td>
-                <div className="w-full bg-white rounded-full dark:bg-gray-700">
+                <div className="w-full bg-white rounded-full">
                   <div
-                    className="bg-[#ff671D] text-white text-center p-0.5 leading-none rounded-full"
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-2"
                     style={{ width: '100%' }}
                   >
                     {'100%'}
@@ -278,8 +278,6 @@ export default function Page() {
           </tbody>
         </table>
       </div>
-
-      {/* Test */}
     </>
   );
 }
