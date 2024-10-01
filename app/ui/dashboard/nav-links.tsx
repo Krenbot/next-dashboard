@@ -14,11 +14,6 @@ import clsx from 'clsx';
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'TEST (Dashboard)',
-    href: '/dashboard/customers',
-    icon: BuildingOffice2Icon,
-  },
-  {
     name: 'Single Project',
     href: '/dashboard/projects',
     icon: UserGroupIcon,
@@ -27,7 +22,12 @@ const links = [
     name: 'Projects (Project List)',
     href: '/dashboard/invoices',
     icon: UserGroupIcon,
-  }
+  },
+  {
+    name: 'TEST (Dashboard)',
+    href: '/dashboard/customers',
+    icon: BuildingOffice2Icon,
+  },
 ];
 
 export default function NavLinks() {
@@ -42,7 +42,7 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3',
+              'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-black hover:text-[#ff671D] md:flex-none md:justify-start md:p-2 md:px-3',
               {
                 'bg-sky-100 text-blue-600': pathname === link.href,
               }

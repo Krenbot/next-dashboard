@@ -2,6 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --archOrange: #ff671d;
+  --archOrange-dark-1: #e65d1a;
+  --archOrange-dark-2: #cc5217;
+  --archOrange-dark-3: #b34814;
+  --archOrange-dark-4: #993e11;
+  --archOrange-dark-5: #80340f;
+  --archOrange-dark-6: #66290c;
+  --archOrange-dark-7: #4c1f09;
+  --archOrange-dark-8: #331506;
+  --archOrange-dark-9: #190a03;
+
+  --archOrange-light-1: #ff7634;
+  --archOrange-light-2: #ff854a;
+  --archOrange-light-3: #ff9561;
+  --archOrange-light-4: #ffa477;
+  --archOrange-light-5: #ffb38e;
+  --archOrange-light-6: #ffc2a5;
+  --archOrange-light-7: #ffd1bb;
+  --archOrange-light-8: #ffe1d2;
+  --archOrange-light-9: #fff0e8;
+
+  --archBlue: #000;
+  --archBlue-dark-1: #1c2e4c;
+  --archBlue-dark-2: #192943;
+  --archBlue-dark-3: #16243b;
+  --archBlue-dark-4: #131f32;
+  --archBlue-dark-5: #101a2a;
+  --archBlue-dark-6: #0c1422;
+  --archBlue-dark-7: #090f19;
+  --archBlue-dark-8: #060a11;
+  --archBlue-dark-9: #030508;
+
+  --archBlue-light-1: #354765;
+  --archBlue-light-2: #4c5c76;
+  --archBlue-light-3: #627087;
+  --archBlue-light-4: #798598;
+  --archBlue-light-5: #8f99aa;
+  --archBlue-light-6: #a5adbb;
+  --archBlue-light-7: #bcc2cc;
+  --archBlue-light-8: #d2d6dd;
+  --archBlue-light-9: #e9ebee;
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
