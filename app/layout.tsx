@@ -1,11 +1,12 @@
 import '@/app/ui/global.css';
-import { jost, league_Spartan } from '@/app/ui/fonts';
+import { jost } from '@/app/ui/fonts';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Acme Dashboard',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Arch C&I Dashboard',
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export default function RootLayout({

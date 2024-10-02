@@ -116,6 +116,7 @@ export default function Page() {
             {/* Top Row */}
             <tr className="text-center">
               <td className="p-2">
+                <p className="text-white text-left">Monitoring</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -126,6 +127,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Materials Procurement</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -136,6 +138,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Cleanup</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -146,6 +149,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Photography</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -159,6 +163,7 @@ export default function Page() {
             {/* 2nd Row */}
             <tr className="text-center">
               <td className="p-2">
+                <p className="text-white text-left">Scheduling</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -169,6 +174,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Monitoring</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -179,6 +185,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Inspection</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -189,6 +196,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Case Study</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -202,6 +210,7 @@ export default function Page() {
             {/* 3rd Row */}
             <tr className="text-center">
               <td className="p-2">
+                <p className="text-white text-left">Permitting</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -212,6 +221,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Engineering Docs</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -222,6 +232,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Commissioning</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -232,6 +243,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Closeout Meetings</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -245,6 +257,7 @@ export default function Page() {
             {/* Bottom Row */}
             <tr className="text-center">
               <td className="p-2">
+                <p className="text-white text-left">Happy Smiles</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -255,6 +268,18 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
+                <p className="text-white text-left">Sad Frowns</p>
+                <div className="w-full bg-white rounded-full">
+                  <div
+                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
+                    style={{ width: '0%' }}
+                  >
+                    {'0%'}
+                  </div>
+                </div>
+              </td>
+              <td className="p-2">
+                <p className="text-white text-left">High Fives</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -265,16 +290,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '100%' }}
-                  >
-                    {'100%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
+                <p className="text-white text-left">Pizza Parties</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"

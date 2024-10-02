@@ -13,13 +13,13 @@ import { Metadata } from 'next';
 // import { Card } from '@/app/ui/dashboard/cards';
 // import { fetchCardData } from '@/app/lib/data';
 
-export const metadata: Metadata = {
-  title: 'Dashboard',
-};
+// export const metadata: Metadata = {
+//   title: 'Dashboard',
+// };
 
 export default async function Page() {
   return (
-    <main>
+    <main className="bg-archOrange">
       <h1 className={`${jost.className} mb-4 text-xl md:text-2xl`}>
         Dashboard
       </h1>

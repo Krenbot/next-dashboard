@@ -5,12 +5,14 @@ import { Metadata } from 'next';
 export const experimental_ppr = true;
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/icon.png',
+  },
   title: {
-    template: '%s | Arch Dashboard',
+    template: '%s | Arch C&I',
     default: 'Arch Dashboard',
   },
-  description: 'The official Next.js Learn Dashboard built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  description: 'Arch C&I - The Energy Experts',
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
