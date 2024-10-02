@@ -14,12 +14,12 @@ import clsx from 'clsx';
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
-    name: 'Single Project',
+    name: 'Project',
     href: '/dashboard/projects',
     icon: UserGroupIcon,
   },
   {
-    name: 'Projects (Project List)',
+    name: 'Arch Team',
     href: '/dashboard/invoices',
     icon: UserGroupIcon,
   },
