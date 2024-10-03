@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import IconButton from '@mui/material/IconButton';
+import Tooltip from '@mui/material/Tooltip';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 export default function Page() {
   return (
@@ -8,7 +11,6 @@ export default function Page() {
           Wisconsin Center
         </h1>
       </div>
-
       <div className="flex flex-row justify-evenly text-center py-5">
         {/* Project Completion */}
         <div className="border-1 bg-white rounded flex flex-col justify-center flex flex-col items-center">
@@ -106,6 +108,7 @@ export default function Page() {
           <thead className="bg-gray-50 ">
             <tr className="text-center bg-cyan-950 border-1 text-white text-3xl">
               <th className="px-4 py-2 w-1/3">Pre-Construction</th>
+
               <th className="px-4 py-2 w-1/3">Construction</th>
               <th className="px-4 py-2 w-1/3">Post-Construction</th>
             </tr>
@@ -114,8 +117,13 @@ export default function Page() {
           <tbody className="bg-cyan-950">
             {/* Top Row */}
             <tr className="text-center">
-              <td className="p-2">
-                <p className="text-white text-left">Engineering</p>
+              <td id="Engineering" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Engineering{' '}
+                  <Tooltip title="Our team of highly trained engineers designs your system for peak performance. This includes creating electrical one-line diagrams and building analysis for permitting.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
 
                 <div className="w-full bg-white rounded-full">
                   <div
@@ -126,8 +134,14 @@ export default function Page() {
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Racking</p>
+              <td id="Racking" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Racking{' '}
+                  <Tooltip title="Before we place the modules, we ensure they will stay in place on your site with top-of-the-line racking. The racking is placed at an angle to maximize your solar production.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -137,8 +151,14 @@ export default function Page() {
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Outage</p>
+              <td id="Outage" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Outage{' '}
+                  <Tooltip title="To make sure everything is correct, your utility will schedule an outage to inspect our work. NOTE: You will not have power during this timeframe. Outages tend to take a few hours – you should receive notice to plan accordingly.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -149,38 +169,57 @@ export default function Page() {
                 </div>
               </td>
             </tr>
+
             {/* 2nd Row */}
             <tr className="text-center">
-              <td className="p-2">
-                <p className="text-white text-left">Permitting</p>
+              <td id="Permitting" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Permitting{' '}
+                  <Tooltip title="At this stage, we have submitted the necessary structural documents and are waiting on approval from your jurisdiction and utility provider.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '50%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'50%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Modules</p>
+              <td id="Modules" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Modules{' '}
+                  <Tooltip title="This is when you’ll ‘see the solar’ as modules are placed in their designated racking structures.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '50%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'50%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Testing</p>
+              <td id="Testing" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Testing{' '}
+                  <Tooltip title="The utility provider makes sure your system is working properly before fully bringing it online.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '50%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'50%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
@@ -188,36 +227,54 @@ export default function Page() {
 
             {/* 3rd Row */}
             <tr className="text-center">
-              <td className="p-2">
-                <p className="text-white text-left">Procurement</p>
+              <td id="Procurement" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Procurement{' '}
+                  <Tooltip title="Once our design is approved, we begin gathering all the materials your project needs.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '75%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'75%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Electrical</p>
+              <td id="Modules" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Modules{' '}
+                  <Tooltip title="Every module is wired to an inverter to capture your energy. At this point, we are making that electrical connection across your project.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '75%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'75%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Commissioning</p>
+              <td id="Commissioning" className="p-2">
+                <p className="text-white text-left flex flex-row">
+                  Commissioning{' '}
+                  <Tooltip title="When the utility approves of the outage and inspection, you receive a date to ‘turn on’ your system! Once your system is commissioned, you're producing renewable energy right from the sun.">
+                    <HelpOutlineIcon className="ml-2" />
+                  </Tooltip>
+                </p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '75%' }}
+                    style={{ width: '25%' }}
                   >
-                    {'75%'}
+                    {'25%'}
                   </div>
                 </div>
               </td>
@@ -227,22 +284,6 @@ export default function Page() {
       </div>
 
       {/* Testing Area */}
-      <button
-        data-ripple-light="true"
-        data-tooltip-target="tooltip-animation"
-        className="select-none rounded-lg bg-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-      >
-        Show Tooltip
-      </button>
-      <div
-        data-tooltip="tooltip-animation"
-        data-tooltip-mount="opacity-100 scale-100"
-        data-tooltip-unmount="opacity-0 scale-0 pointer-events-none"
-        data-tooltip-transition="transition-all duration-200 origin-bottom"
-        className="absolute z-50 whitespace-normal break-words rounded-lg bg-black py-1.5 px-3 font-sans text-sm font-normal text-black focus:outline-none"
-      >
-        Material Tailwind
-      </div>
     </>
   );
 }
