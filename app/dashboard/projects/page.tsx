@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <>
-      <div className=" uppercase text-[#ff671d] font-bold text-center mb-5">
+      <div className=" uppercase text-[#ff671d] font-bold text-center mb-5 ">
         <h1 className="text-6xl border-b-4 border-[#1f3354] inline">
           Wisconsin Center
         </h1>
@@ -101,14 +101,13 @@ export default function Page() {
       </div>
 
       {/* Progress Table */}
-      <div className="flex flex-col rounded-full py-10 my-5 px-5">
+      <div id="progress-table" className="flex flex-col rounded-full">
         <table className="table-fixed">
           <thead className="bg-gray-50 ">
             <tr className="text-center bg-cyan-950 border-1 text-white text-3xl">
-              <th className="px-4 py-2 w-1/4">Admin</th>
-              <th className="px-4 py-2 w-1/4">Engineering</th>
-              <th className="px-4 py-2 w-1/4">Field</th>
-              <th className="px-4 py-2 w-1/4">Marketing</th>
+              <th className="px-4 py-2 w-1/3">Pre-Construction</th>
+              <th className="px-4 py-2 w-1/3">Construction</th>
+              <th className="px-4 py-2 w-1/3">Post-Construction</th>
             </tr>
           </thead>
 
@@ -116,7 +115,8 @@ export default function Page() {
             {/* Top Row */}
             <tr className="text-center">
               <td className="p-2">
-                <p className="text-white text-left">Monitoring</p>
+                <p className="text-white text-left">Engineering</p>
+
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -127,7 +127,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <p className="text-white text-left">Materials Procurement</p>
+                <p className="text-white text-left">Racking</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -138,18 +138,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <p className="text-white text-left">Cleanup</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '25%' }}
-                  >
-                    {'25%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
-                <p className="text-white text-left">Photography</p>
+                <p className="text-white text-left">Outage</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -163,7 +152,7 @@ export default function Page() {
             {/* 2nd Row */}
             <tr className="text-center">
               <td className="p-2">
-                <p className="text-white text-left">Scheduling</p>
+                <p className="text-white text-left">Permitting</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -174,7 +163,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <p className="text-white text-left">Monitoring</p>
+                <p className="text-white text-left">Modules</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -185,18 +174,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <p className="text-white text-left">Inspection</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '50%' }}
-                  >
-                    {'50%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
-                <p className="text-white text-left">Case Study</p>
+                <p className="text-white text-left">Testing</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -207,10 +185,11 @@ export default function Page() {
                 </div>
               </td>
             </tr>
+
             {/* 3rd Row */}
             <tr className="text-center">
               <td className="p-2">
-                <p className="text-white text-left">Permitting</p>
+                <p className="text-white text-left">Procurement</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -221,7 +200,7 @@ export default function Page() {
                 </div>
               </td>
               <td className="p-2">
-                <p className="text-white text-left">Engineering Docs</p>
+                <p className="text-white text-left">Electrical</p>
                 <div className="w-full bg-white rounded-full">
                   <div
                     className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
@@ -242,74 +221,27 @@ export default function Page() {
                   </div>
                 </div>
               </td>
-              <td className="p-2">
-                <p className="text-white text-left">Closeout Meetings</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '75%' }}
-                  >
-                    {'75%'}
-                  </div>
-                </div>
-              </td>
-            </tr>
-            {/* Bottom Row */}
-            <tr className="text-center">
-              <td className="p-2">
-                <p className="text-white text-left">Happy Smiles</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '100%' }}
-                  >
-                    {'100%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
-                <p className="text-white text-left">Sad Frowns</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '0%' }}
-                  >
-                    {'0%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
-                <p className="text-white text-left">High Fives</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '100%' }}
-                  >
-                    {'100%'}
-                  </div>
-                </div>
-              </td>
-              <td className="p-2">
-                <p className="text-white text-left">Pizza Parties</p>
-                <div className="w-full bg-white rounded-full">
-                  <div
-                    className="bg-[#ff671D] text-white text-center py-1 leading-none rounded-full my-.25"
-                    style={{ width: '100%' }}
-                  >
-                    {'100%'}
-                  </div>
-                </div>
-              </td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      <div>
-        <p>Location</p>
-        <p>Point of Contact</p>
-        <p>mW</p>
-        <p># of Panels</p>
+      {/* Testing Area */}
+      <button
+        data-ripple-light="true"
+        data-tooltip-target="tooltip-animation"
+        className="select-none rounded-lg bg-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-black shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+      >
+        Show Tooltip
+      </button>
+      <div
+        data-tooltip="tooltip-animation"
+        data-tooltip-mount="opacity-100 scale-100"
+        data-tooltip-unmount="opacity-0 scale-0 pointer-events-none"
+        data-tooltip-transition="transition-all duration-200 origin-bottom"
+        className="absolute z-50 whitespace-normal break-words rounded-lg bg-black py-1.5 px-3 font-sans text-sm font-normal text-black focus:outline-none"
+      >
+        Material Tailwind
       </div>
     </>
   );
