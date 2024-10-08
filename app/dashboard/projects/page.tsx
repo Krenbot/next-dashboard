@@ -244,9 +244,9 @@ export default function Page() {
                   </div>
                 </div>
               </td>
-              <td id="Modules" className="p-2">
+              <td id="Electrical" className="p-2">
                 <p className="text-white text-left flex flex-row">
-                  Modules{' '}
+                  Electrical{' '}
                   <Tooltip title="Every module is wired to an inverter to capture your energy. At this point, we are making that electrical connection across your project.">
                     <HelpOutlineIcon className="ml-2" />
                   </Tooltip>
